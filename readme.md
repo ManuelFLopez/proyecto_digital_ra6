@@ -1,118 +1,119 @@
-# 🚀 Proyecto de Transformación Digital (RA6)
+# 🧪 Actividad — Empresa en Transformación Digital
 
-## 🧑‍💼 1. Empresa
-- Nombre de la empresa:
-- Sector:
-- Descripción breve:
+## 🧑‍💼 Parte 1 — Empresa
 
----
-
-## 🎯 2. Objetivos estratégicos (SMART)
-
-### Objetivo 1
-- Descripción:
-- Métrica:
-- Plazo:
-
-### Objetivo 2
-- Descripción:
-- Métrica:
-- Plazo:
-
-### Objetivo 3
-- Descripción:
-- Métrica:
-- Plazo:
+* Nombre: Clínica SaludVida
+* Sector: Sanitario (clínica privada)
+* Situación actual: Gestión principalmente presencial con registros parcialmente digitalizados y poca automatización.
 
 ---
 
-## 🏢 3. Áreas de la empresa
+## 🎯 Parte 2 — Objetivos
 
-| Área | Función | Sub-objetivo digital | Impacto esperado |
-|------|--------|----------------------|------------------|
-|      |        |                      |                  |
-|      |        |                      |                  |
-|      |        |                      |                  |
+* Digitalizar la gestión de pacientes mediante historia clínica electrónica.
+* Automatizar citas y recordatorios para reducir ausencias.
+* Mejorar la atención al paciente mediante telemedicina.
 
 ---
 
-## ⚙️ 4. Tecnologías habilitadoras digitales (THD)
+## 🏢 Parte 3 — Áreas
 
-- Tecnología 1:
-  - Uso en la empresa:
-- Tecnología 2:
-  - Uso en la empresa:
-- Tecnología 3:
-  - Uso en la empresa:
-- Tecnología 4:
-  - Uso en la empresa:
-- Tecnología 5:
-  - Uso en la empresa:
+* Recepción: Gestión de citas y pacientes.
+* Área médica: Atención y seguimiento clínico.
+* Administración: Facturación y gestión interna.
+
+**Relación entre ellas:**
+La recepción registra pacientes y organiza citas, el área médica atiende y genera informes, y administración gestiona pagos y datos económicos.
 
 ---
 
-## 📊 5. Datos y tratamiento de la información
+## ⚙️ Parte 4 — Tecnologías
 
-- Tipos de datos que genera la empresa:
-- Cómo se capturan:
-- Cómo se almacenan:
-- Cómo se procesan:
-- Cómo se analizan:
-- Uso en la toma de decisiones:
+* Cloud Computing: almacenamiento de historiales médicos.
+* Inteligencia Artificial: apoyo en diagnóstico y triaje.
+* Base de datos centralizada: gestión de pacientes.
 
 ---
 
-## 🔐 6. Seguridad y riesgos
+## 📊 Parte 5 — Datos
 
-### Riesgos identificados
-1.
-2.
-3.
-
-### Medidas de protección
-1.
-2.
-3.
+* Datos que maneja: pacientes, historiales médicos, citas, facturación.
+* Información obtenida: estado de salud, estadísticas de enfermedades, rendimiento de la clínica.
 
 ---
 
-## 👨‍💻 7. Recursos humanos
+## 🔐 Parte 6 — Seguridad
 
-- Nuevos perfiles necesarios:
-- Formación requerida:
-- Cambios organizativos:
+**Riesgos:**
 
----
+1. Acceso no autorizado a datos médicos.
+2. Pérdida o filtración de historiales clínicos.
 
-## 🔗 8. Integración de sistemas
+**Medidas de protección:**
 
-- ERP utilizado o propuesto:
-- CRM utilizado o propuesto:
-- BPM / automatización:
-- Integración entre sistemas:
+1. Cifrado de datos.
+2. Autenticación multifactor para personal.
 
 ---
 
-## 💡 9. Valor del proyecto
+## 👥 Parte 7 — Recursos humanos
 
-- Beneficios económicos:
-- Mejora operativa:
-- Ventaja competitiva:
-- Riesgos de no digitalizar:
+* Nuevas competencias digitales: uso de sistemas médicos digitales, telemedicina, ciberseguridad básica.
+* Cambios organizativos: incorporación de un departamento IT y digitalización de procesos clínicos.
 
 ---
 
-## 📐 10. Modelado UML (OBLIGATORIO)
+## 🔗 Parte 8 — Integración
+
+* Sistemas conectados: sistema de citas, historia clínica electrónica, facturación.
+* Procesos automatizados: recordatorios de citas, generación de informes médicos, facturación automática.
+
+---
+
+## 💡 Parte 9 — Valor
+
+**Beneficios de digitalizar:**
+
+* Mayor eficiencia y rapidez en la atención.
+* Reducción de errores administrativos.
+* Mejora en la experiencia del paciente.
+
+**Riesgos de no hacerlo:**
+
+* Pérdida de competitividad.
+* Ineficiencia en procesos.
+* Mayor riesgo de errores médicos administrativos.
+
+---
+
+## 📐 Parte 10 — UML (OBLIGATORIO)
 
 ### Casos de uso
-- Actores:
-- Funcionalidades principales:
 
-### Diagrama de clases
-- Entidades principales:
-- Relaciones:
+**Actores:** Paciente, Médico, Administrador
 
-### Diagrama de secuencia (opcional)
-- Caso representado:
+**Funcionalidades:**
+
+* Solicitar cita
+* Atender consulta
+* Gestionar historiales
+* Facturar servicios
 
 ---
+
+### Diagrama de clases
+
+**Entidades principales:**
+
+* Paciente
+* Médico
+* Cita
+* HistoriaClínica
+* Factura
+
+**Relaciones:**
+
+* Un paciente tiene muchas citas
+* Un médico atiende muchas citas
+* Cada cita genera o actualiza una historia clínica
+* Cada consulta puede generar una factura
