@@ -44,7 +44,7 @@
 
 * Tecnología 1: Cloud Computing
 
-  * Uso en la empresa: Almacenamiento y gestión de datos en la nube
+  * Uso en la empresa: Almacenamiento y gestión en la nube
 * Tecnología 2: Big Data
 
   * Uso en la empresa: Análisis de comportamiento de clientes
