@@ -2,7 +2,7 @@
 
 ## 🧑‍💼 1. Empresa
 
-* Nombre de la empresa: EcoMarket S.L.
+* Nombre de la empresa: MarketDigi S.L
 * Sector: Comercio minorista (alimentación ecológica)
 * Descripción breve: Empresa dedicada a la venta de productos ecológicos a través de tiendas físicas y comercio electrónico.
 
